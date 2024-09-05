@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuxan Ecoindustrial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        /* General */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2E7D32;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background-image: url('https://www.example.com/tu-imagen-hero.jpg'); /* Reemplazar URL */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2E7D32;
+            color: white;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #f4f4f4;
+        }
+
+        /* Parallax Sections */
+        .parallax {
+            background-image: url('https://www.example.com/tu-imagen-parallax.jpg'); /* Reemplazar URL */
+            height: 400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        /* Services Section */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .service-box {
+            width: 30%;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .service-box img {
+            width: 50px;
+        }
+
+        /* Contact Section */
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #2E7D32;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Kuxan Ecoindustrial</h1>
+            <p>Soluciones Tecnológicas y Ecológicas para la Industria</p>
+            <a href="#about">Conócenos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about container">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Kuxan Ecoindustrial es una empresa dedicada a brindar soluciones tecnológicas sostenibles, especializada en la reparación de equipos electrónicos y automatización industrial, con un enfoque en el cuidado del medio ambiente.</p>
+    </section>
+
+    <!-- Parallax Section -->
+    <section class="parallax"></section>
+
+    <!-- Misión y Visión -->
+    <section id="mision" class="container">
+        <h2>Misión y Visión</h2>
+        <p><strong>Misión:</strong> Proveer soluciones tecnológicas innovadoras que promuevan la sostenibilidad y la eficiencia industrial, minimizando el impacto ambiental.</p>
+        <p><strong>Visión:</strong> Ser líderes en tecnología ecológica industrial, contribuyendo a un futuro más limpio y sustentable.</p>
+    </section>
+
+    <!-- Parallax Section -->
+    <section class="parallax"></section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <h2>Servicios</h2>
+        <div class="services">
+            <div class="service-box">
+                <img src="https://www.example.com/icono1.png" alt="Servicio 1">
+                <h3>Reparación de Tarjetas</h3>
+                <p>Reparación a nivel componente para todo tipo de tarjetas electrónicas industriales.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://www.example.com/icono2.png" alt="Servicio 2">
+                <h3>Automatización</h3>
+                <p>Soluciones en automatización de procesos industriales, optimizando eficiencia.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://www.example.com/icono3.png" alt="Servicio 3">
+                <h3>Soporte IT</h3>
+                <p>Soporte técnico en sitio y remoto para todo tipo de infraestructura tecnológica.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-form">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="email" placeholder="Correo Electrónico">
+            <textarea name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+</html>
